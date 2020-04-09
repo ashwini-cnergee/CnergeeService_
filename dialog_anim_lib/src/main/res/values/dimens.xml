@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dialog_padding">25dp</dimen>
+
+    <dimen name="list_row_padding">14.0dip</dimen>
+    <dimen name="font_22">20.0sp</dimen>
+</resources>

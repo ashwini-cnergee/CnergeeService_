@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:wheel="http://schemas.android.com/tools"
+    android:orientation="vertical">
+    <include
+        android:id="@+id/include_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        layout="@layout/layout_ezetap" />
+
+
+    <com.dsa.cnergee.loadingview.ProgressWheel
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/progress_wheel"
+        wheel:matProg_circleRadius="50dp"
+        wheel:matProg_progressIndeterminate="true"
+        wheel:matProg_barColor="@color/colorPrimaryDark"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:id="@+id/ll_all_data"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:layout_marginBottom="10dp">
+            <com.dsa.cnergee.customview.MyTextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/inner_text"
+                android:text="Amount"
+                app:fontName="@string/bold_font_name"/>
+
+            <com.dsa.cnergee.customview.MyTextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_heading"
+                android:text="12.00"
+                app:fontName="@string/bold_font_name"
+                android:id="@+id/tv_amount" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:layout_marginBottom="10dp">
+            <com.dsa.cnergee.customview.MyTextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/inner_text"
+                android:text="Mobile No"
+                app:fontName="@string/bold_font_name"/>
+
+            <com.dsa.cnergee.customview.MyTextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_heading"
+                android:text="123456789"
+                android:id="@+id/tv_mob"
+                app:fontName="@string/bold_font_name"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:layout_marginBottom="10dp">
+            <com.dsa.cnergee.customview.MyTextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/inner_text"
+                android:text="Order No"
+                app:fontName="@string/bold_font_name"/>
+
+            <com.dsa.cnergee.customview.MyTextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_heading"
+                android:text=""
+                app:fontName="@string/bold_font_name"
+                android:id="@+id/tv_order_no" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+
+            <com.dsa.cnergee.customview.MyButtonView
+                android:id="@+id/btn_back"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="0.5"
+                android:background="@color/colorPrimaryDark"
+                android:text="Back"
+                android:textSize="@dimen/text_heading"
+                android:layout_margin="10dp"
+                app:fontName="@string/font_name"
+                android:textAllCaps="false"
+                android:layout_alignParentBottom="true"
+                android:textColor="@android:color/white"/>
+
+            <com.dsa.cnergee.customview.MyButtonView
+                android:id="@+id/btn_next"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="0.5"
+                android:background="@color/colorPrimaryDark"
+                android:text="Submit"
+                android:textSize="@dimen/text_heading"
+                android:layout_margin="10dp"
+                app:fontName="@string/font_name"
+                android:textAllCaps="false"
+                android:layout_alignParentBottom="true"
+                android:textColor="@android:color/white"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

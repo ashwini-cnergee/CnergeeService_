@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/TableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="right" >
+    
+   
+
+ <TableRow
+     android:id="@+id/tableRow1"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:gravity="right"
+     android:paddingTop="10dp" >
+
+ <TextView
+                 android:id="@+id/versionView"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_above="@+id/compl_list_footer"
+                 android:layout_alignParentLeft="true"
+                 android:gravity="right"
+                 android:paddingRight="10dp"
+                 android:paddingLeft="10dp"
+                 android:text="@string/app_default_label"
+                 android:textAppearance="?android:attr/textAppearanceSmall"
+                 android:textColor="@color/label_blue_color"
+                 android:textStyle="bold" />
+   
+    <Button
+        android:id="@+id/backBtn"
+        style="@style/AppBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/relative_selector"
+        android:text="@string/app_back_btn" />
+    
+     <Button
+        android:id="@+id/updateBtn"
+        style="@style/AppBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/relative_selector"
+        android:text="@string/app_update_btn" />
+    
+    </TableRow>
+
+</TableLayout>

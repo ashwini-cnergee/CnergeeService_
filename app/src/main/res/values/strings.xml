@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Cnergee Service Application</string>
+    <string name="app_service_desc">Cnergee Service for getting the complaints</string>
+    <string name="app_login_mode">Please Wait...</string>
+    <string name="menu_settings">Settings</string>
+    <string name="default_label">-</string>
+    
+<!-- 		<string name="app_run_mode">dev</string>  -->
+ <string name="app_run_mode">prod</string>
+
+    <string name="shared_preferences_name">CNERGEE_SERVICE</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_app_setting">AppSettingActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_notification_details">NotificationDetailsActivity</string>
+    <string name="title_activity_complaint_list">ComplaintListActivity</string>
+    <string name="title_activity_complaint_details">ComplaintDetailsActivity</string>
+
+    <string name="font_name">fonts/OpenSans-Regular.ttf</string>
+    <string name="bold_font_name">fonts/OpenSans-Semibold.ttf</string>
+
+
+    <string name="select_Category">Select Category</string>
+    <!--<string name="login_title">Login</string>-->
+    <!--<string name="login_user">Username:</string>-->
+    <!--<string name="login_pass">Password:</string>-->
+    <!--<string name="login_btn_login">Login</string>-->
+    <string name="ezetap_code">Ezetap Code:</string>
+    <string name="card">Debit/Credit card Payment</string>
+    <string name="connection_type">Connection Type</string>
+    <string name="please_wait">Please wait..</string>
+    <string name="router">Router</string>
+    <string name="security">Security Deposit</string>
+    <string name="post_forward">Port Forwarding Charges</string>
+    <string name="natting_charges">Natting Charges</string>
+    <string name="gpon">Gpon</string>
+    <string name="router_type">Router Type</string>
+    <string name="gpon_type">Gpon Type</string>
+    <string name="router_model">Router Model</string>
+    <string name="gpon_model">Gpon Model</string>
+    <string name="router_offer">Router Offer</string>
+    <string name="post_forward_refund">Port Forwarding Refund :</string>
+    <string name="natt_refund">Natting charges Refund :</string>
+
+    <string name="gpon_offer">Gpon Offer</string>
+    <string name="router_charges">Router charges</string>
+    <string name="gpon_charges">Gpon charges</string>
+    <string name="router_refund_amount">Router Refund Amount</string>
+    <string name="gpon_refund_amount">Gpon Refund Amount</string>
+    <string name="security_refund_rg">Security Deposit Refund</string>
+    <string name="security_deposit">Security Deposit</string>
+    <string name="security_refund">Security Refund Amount</string>
+    <string name="security_heading"><u>Security Deposit</u></string>
+    <string name="security_description">S.D Description</string>
+    <string name="router_heading"><u>Router</u></string>
+    <string name="post_heading"><u>Post Forwarding Charges</u></string>
+    <string name="natt_heading"><u>Natting Charges</u></string>
+    <string name="gpon_heading"><u>Gpon</u></string>
+    <string name="router_security_payment">Payment</string>
+    <string name="router_security_total_amount">Total Amount</string>
+    <string name="pay_mode_heading"><u>Payment Mode</u></string>
+    <string name="tv_cash_amt">Cash Amount</string>
+    <string name="tv_cheque_dd_edc_no">Cheque/DD No</string>
+    <string name="tv_amount">Amount</string>
+    <string name="tv_total_amount_heading"><u>Total Amount</u></string>
+    <string name="select_capture_img"><u>Capture Image</u></string>
+    <string name="select_address"><u>Proof of Address</u></string>
+    <string name="select_identity"><u>Proof of Identity</u></string>
+
+    <string name="hint_first_name">Enter First Name <font color='#FF0000'>*</font></string>
+    <string name="hint_middle_name">Enter Middle Name <font color='#FF0000'>*</font></string>
+    <string name="hint_last_name">Enter Last Name <font color='#FF0000'>*</font></string>
+    <string name="hint_mobile">Enter Mobile Number <font color='#FF0000'>*</font></string>  Date of Birth *
+    <string name="hint_dob">Date of Birth  <font color='#FF0000'>*</font></string>
+    <string name="hint_nationality">Nationality  <font color='#FF0000'>*</font></string>
+    <string name="hint_service_type">Service Type  <font color='#FF0000'>*</font></string>
+    <string name="hint_id_proof">ID proof  <font color='#FF0000'>*</font></string>
+    <string name="hint_id_num">ID proof Number <font color='#FF0000'>*</font></string>
+
+    <string name="hint_Connection">Connection Type <font color='#FF0000'>*</font></string>
+    <string name="hint_isp">ISP <font color='#FF0000'>*</font></string>
+    <string name="hint_caf_no">CAF No <font color='#FF0000'>*</font></string>
+    <string name="hint_loginid">Member LoginId <font color='#FF0000'>*</font></string>
+    <string name="hint_caf_filled_date">CAF Filled Date <font color='#FF0000'>*</font></string>
+
+
+    <string name="hint_city">City <font color='#FF0000'>*</font></string>
+    <string name="hint_location">Location <font color='#FF0000'>*</font></string>
+    <string name="hint_area">Area <font color='#FF0000'>*</font></string>
+    <string name="hint_subarea">SubArea <font color='#FF0000'>*</font></string>
+    <string name="hint_building">Building <font color='#FF0000'>*</font></string>
+    <string name="hint_type_premises">Types of Premises <font color='#FF0000'>*</font></string>
+    <string name="hint_address">Address <font color='#FF0000'>*</font></string>
+
+
+    <string name="hint_activation_date">Activation Date <font color='#FF0000'>*</font></string>
+    <string name="hint_payment_date">Payment Date <font color='#FF0000'>*</font></string>
+    <string name="hint_package_name">Select Package<font color='#FF0000'>*</font></string>
+    <string name="hint_package_amount">Package Amount <font color='#FF0000'>*</font></string>
+
+    <string name="hint_pay_mode">Payment Mode <font color='#FF0000'>*</font></string>
+    <string name="hint_chk_amt">Amount: <font color='#FF0000'>*</font></string>
+    <string name="hint_chk_no">CHQ/DD/EDC No: <font color='#FF0000'>*</font></string>
+    <string name="hint_chk_date">CHQ/DD/EDC Date: <font color='#FF0000'>*</font></string>
+    <string name="hint_bank_name">Bank Name <font color='#FF0000'>*</font></string>
+
+
+
+    <string name="tv_bank_name">Bank Name</string>
+    <string name="tv_cheque_date">Cheque/DD Date</string>
+
+    <string-array name="spinnerItems_Caf">
+        <item>Select Item</item>
+        <item>CAF</item>
+    </string-array>
+
+   <string name="no_geocoder_available">No geocoder available</string>
+
+   <string name="fetch_address">Fetch address</string>
+
+   <string name="address_found">Address found</string>
+
+   <string name="no_address_found">Sorry, no address found</string>
+   <string name="no_location_data_provided">No location data provided</string>
+   <string name="service_not_available">Sorry, the service is not available</string>
+   <string name="invalid_lat_long_used">Invalid latitude or longitude used</string>
+
+    <string name="bundleKey">ImageUri</string>
+    <string name="whatsappToast">Sorry! Images could not be added. Please select the images from our **Select Images** option.</string>
+    <string name="successToast">Images successfully added.</string>
+
+
+
+    <string name="file_name_text">File Name</string>
+    <string name="select_images_text">Select Images</string>
+    <string name="password_protect_pdf_text">Password Protect PDF</string>
+    <string name="edit_images_text">Edit Images</string>
+    <string name="open_pdf_text">Open PDF</string>
+    <string name="create_pdf_text">Create PDF</string>
+    <string name="mb_button">Create PDF</string>
+    <string name="details"><b>Details</b></string>
+    <string name="search_hint">Name of file</string>
+    <string name="no_result">Couldn\'t find anything</string>
+    <string name="search">search</string>
+    <string name="set_page_size_text">Set Page Size</string>
+
+
+    <string name="snackbar_no_images">No Images selected</string>
+    <string name="snackbar_no_pdfs_selected">No PDFs selected</string>
+    <string name="snackbar_name_not_blank">Name cannot be blank</string>
+    <string name="snackbar_permissions_given">Permissions Given!</string>
+    <string name="snackbar_insufficient_permissions">Insufficient Permissions!</string>
+    <string name="snackbar_images_added">Images added</string>
+    <string name="snackbar_file_renamed">File renamed.</string>
+    <string name="snackbar_file_not_renamed">File can\'t be renamed.</string>
+    <string name="snackbar_no_pdfs">No PDFs right now</string>
+    <string name="snackbar_file_deleted">File deleted.</string>
+    <string name="snackbar_file_not_deleted">File can\'t be deleted.</string>
+    <string name="snackbar_folder_not_created">Error on creating application folder.</string>
+    <string name="pdf_merge">Merging File</string>
+    <string name="pdf_merge_error">Unable to Merge</string>
+    <string name="file_path">PDF File Path</string>
+
+    <string name="image_picker_activity_toolbar_title">Select Images</string>
+    <string name="images_selected">" image(s) selected."</string>
+    <string name="creating_pdf">Creating PDF</string>
+    <string name="enter_file_name">Enter file name</string>
+    <string name="example">Example : abc</string>
+    <string name="pdf_ext" translatable="false">.pdf</string>
+    <string name="pdf_dir" translatable="false">/PDFfiles/</string>
+    <string name="converting_file_message">Converting your files to PDF.</string>
+
+    <string name="warning">Warning</string>
+    <string name="overwrite_message">There already exists a file with the same name. Do you want to overwrite?</string>
+    <string name="pdf_type" translatable="false">application/pdf</string>
+    <string name="open_file">Open File</string>
+    <string name="snackbar_no_pdf_app">No app to read PDF File</string>
+    <string name="previous_image_content_desc">Previous Image</string>
+    <string name="nextimage_contentdesc">Next Image</string>
+    <string name="img_Count_filter">Showing X of X</string>
+
+    <string name="save_current_imagefilter">Save Current</string>
+    <string name="save_current">Save Current</string>
+    <string name="snackbar_error_getCropped">Error on getting cropped images</string>
+    <string name="snackbar_imagecropped">Images cropped</string>
+    <string name="filter_images_Text">Filter Images \n</string>
+    <string name="compress_image">Compress the Image (Default : </string>
+
+    <string name="b0_to_b10">B0 to B10</string>
+    <string name="a0_to_a10">A0 to A10</string>
+    <string name="tabloid">TABLOID</string>
+    <string name="executive">EXECUTIVE</string>
+    <string name="ledger">LEDGER</string>
+    <string name="letter">LETTER</string>
+    <string name="legal">LEGAL</string>
+    <string name="default_a4">DEFAULT (A4)</string>
+
+    <string-array name="array_page_sizes_b0_b10" translatable="false">
+        <item>B0 (2834 x 4008)</item>
+        <item>B1 (2004 x 2834)</item>
+        <item>B2 (1417 x 2004)</item>
+        <item>B3 (1000 x 1417)</item>
+        <item>B4 (708 x 1000)</item>
+        <item>B5 (498 x 708)</item>
+        <item>B6 (354 x 498)</item>
+        <item>B7 (249 x 354)</item>
+        <item>B8 (175 x 249)</item>
+        <item>B9 (124 x 175)</item>
+        <item>B10 (87 x 124)</item>
+    </string-array>
+
+    <string-array name="array_page_sizes_a0_b10" translatable="false">
+        <item>A0 (2384 x 3370)</item>
+        <item>A1 (1684 x 2384)</item>
+        <item>A2 (1191 x 1684)</item>
+        <item>A3 (842 x 1191)</item>
+        <item>A4 (595 x 842)</item>
+        <item>A5 (420 x 595)</item>
+        <item>A6 (297 x 420)</item>
+        <item>A7 (210 x 297)</item>
+        <item>A8 (148 x 210)</item>
+        <item>A9 (105 x 148)</item>
+        <item>A10 (73 x 105)</item>
+    </string-array>
+
+    <string name="cropImage_activityTitle">Crop image No.</string>
+    <string name="save_first">Save Current Image First</string>
+    <string name="saving_dialog">Saving..</string>
+    <string name="done_filter">Done</string>
+    <string name="text_to_pdf">Text To PDF</string>
+    <string name="merge_pdf">Merge PDF</string>
+    <string name="viewFiles">View Files</string>
+    <string name="create_pdf">Create PDF</string>
+    <string name="snackbar_pdfCreated">PDF created!</string>
+    <string name="snackbar_viewAction">View</string>
+    <string name="i_have_attached_pdfs_to_this_message">I have attached PDF(s) to this message</string>
+
+
+</resources>

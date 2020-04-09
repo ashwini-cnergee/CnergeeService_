@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     
+    <string name="app_splash_label">Powered by Cnergee</string>
+    
+    <string name="app_back_btn">वापस</string>
+    <string name="app_logout_btn">लोग आउट</string>
+    <string name="app_update_btn">जमा करें</string>
+     
+    <string name="app_default_label">-</string>
+    <string name="app_please_wait_label">कृपया प्रतीक्षा करें..</string>
+    <string name="app_please_enter_valid_label">मान्य डेटा दर्ज करें।</string>
+    <string name="app_please_setup_ws_label">कृपया सेटअप WebService प्रमाणीकरण ।</string>
+    <string name="app_cust_not_found_label">ग्राहक नहीं मिले !!!</string>
+    <string name="app_internet_not_found_label">इंटरनेट कनेक्शन उपलब्ध नहीं !!</string>
+    <string name="app_confirm_label">क्या आप वाकई प्रक्रिया चाहते हैं?</string>
+    <string name="app_payment_capture_label">अपने भुगतान विवरण कब्जा कर रहे हैं</string>
+    
+      
+     <string name="login_title">लॉगिन</string>
+     <string name="login_user">उपयोगकर्ता नाम:</string>
+     <string name="login_pass">पासवर्ड:</string>
+     <string name="login_invalid">अमान्य उपयोगकर्ता नाम / पासवर्ड। कृपया पुन: प्रयास करें।</string>
+     
+     <string name="login_btn_login">लॉगिन</string>
+     <string name="login_btn_setting">WS सेटिंग</string> 
+     
+     
+     <string name="app_setting_title">प्रमाणीकरण</string>
+     <string name="app_label_1">मोबाइल नंबर</string>
+     <string name="app_label_2">मोबाइल लॉगिन आईडी :</string>
+     <string name="app_label_3">मोबाइल पासवर्ड:</string>
+     <string name="app_label_4">भाषा:</string>
+     <string name="app_label_5">एक्सेस कोड:</string>
+     <string name="app_btn_1">बचाना</string>
+     <string name="app_btn_2">रीसेट</string>
+     <string name="app_hint_1"></string>
+     
+     <string name="app_notification_label_1">नई शिकायत निरुपित !</string>
+     <string name="app_notification_label_2">Cnergee Administator</string>
+  
+        
+     <string name="app_home_title">होम</string>
+     <string name="app_home_label_1">नवीनतम स्थिति</string>
+     <string name="app_home_label_2">रजिस्टर न्यू</string>
+     <string name="app_home_label_3">शिकायत लॉग</string>
+     <string name="app_home_label_4">लोग आउट</string>
+     
+     <string name="app_complaint_det_title">शिकायत विवरण</string>
+     <string name="app_complaint_label_1">कार्यसूची संख्या</string>
+     <string name="app_complaint_label_2">ग्राहक का नाम</string>
+     <string name="app_complaint_label_3">शिकायत नंबर</string>
+     <string name="app_complaint_label_4">पता</string>
+     <string name="app_complaint_label_5">मोबाइल नंबर</string>
+     <string name="app_complaint_label_6">टिप्पणियाँ</string>
+     <string name="app_complaint_label_7">शिकायत दिनांक और समय</string>
+     <string name="app_complaint_label_8">शिकायत करे ।</string>
+      <string name="app_complaint_label_9">ग्राहक आईडी.</string>
+      <string name="app_complaint_label_10">स्थिति</string>
+      <string name="app_complaint_label_11">निरुपित दिनांक और समय</string>
+     
+     
+     <string name="app_complaint_list_title">शिकायतों की सूची</string>
+     <string name="app_complaint_list_label_1">शिकायतें</string>
+     
+      <string name="app_complaint_details_title">शिकायत विवरण</string>
+      
+      <string name="app_enquiry_no">पूछताछ संख्या:</string>
+     <string name="app_enquiry_cust_name">ग्राहक का नाम:</string>
+     <string name="app_enquiry_address">पता:</string>
+     <string name="app_enquiry_mob">मोबाइल नंबर:</string>
+     <string name="app_enquiry_current_status">वर्तमान स्थिति:</string>
+     <string name="app_enquiry_comment">टिप्पणी:</string>
+      <string name="app_enquiry_conn_date">कनेक्शन दिनांक:</string>
+     <string name="app_enquiry_visit_date">भेंट की तारीख:</string>
+     <string name="app_enquiry_last_comment">अंतिम टिप्पणी:</string>
+     <string name="app_enquiry_status">स्थिति:</string>
+     
+     
+      <string name="app_shifting_no">स्थानांतरण संख्या:</string>
+     
+     <string name="app_shifting_old_address">पुराने पते :</string>
+     <string name="app_shifting_new_address">नया पता:</string>
+     <string name="app_deactivation_no">निष्क्रियकरण संख्या</string>
+    
+     
+</resources>

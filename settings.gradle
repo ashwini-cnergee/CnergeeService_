@@ -1,0 +1,7 @@
+include ':app', ':eKYC_SDK_Version3', ':squarecamera'
+include ':dialog_anim_lib'
+include ':material_edittext_library'
+include ':lottie'
+
+
+

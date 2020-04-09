@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_cnergee"
+    tools:context=".ComplaintDetailsActivity" >
+
+    <include
+        android:id="@+id/compldet_list_header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        layout="@layout/detailsheader" />
+
+    <include
+        android:id="@+id/compldet_list_footer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        layout="@layout/footer" />
+
+    <include
+        android:id="@+id/include1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/include2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/compldet_list_header"
+        layout="@layout/complaint_details_view1" />
+
+    <include
+        android:id="@+id/include2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/compldet_list_footer"
+        android:layout_alignParentRight="true"
+        layout="@layout/complaint_det_btn_view" />
+
+</RelativeLayout>

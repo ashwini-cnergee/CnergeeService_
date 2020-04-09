@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <color name="btn_pressed">#7CFC00</color>
+     <color name="btn_released">#C0C0C0</color>
+     <color name="label_gray_color">#A9A9A9</color>
+     <color name="label_black_color">#000000</color>
+     <color name="label_blue_color">#0000FF</color>
+     <color name="label_red_color">#FF0000</color>
+     <color name="label_orange_color">#FFA500</color>
+     <color name="label_LightSeaGreen_color">#20B2AA</color>
+  <color name="gradient_end">#ff8000</color>
+   <color name="white_color">#ffffff</color>
+   <color name="blue_color">#72d3f8</color>
+   <color name="dark_blue_color">#0000A0</color>
+
+   
+</resources>

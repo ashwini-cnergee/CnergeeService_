@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+<TextView
+	    android:id="@+id/complaintListTxtHeader"
+	    android:layout_width="fill_parent"
+	    android:layout_height="25dp"
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignParentTop="true"
+	    android:gravity="center_vertical"
+	    android:padding="10dp"
+	    android:text="Pending Complaints"
+	    android:textColor="#FFFFFF"
+	    android:textSize="20sp"
+	    android:textStyle="bold" />
+    
+            <TextView
+                android:id="@+id/TextViewCompl"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="@string/app_complaint_label_3"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/label_gray_color" />
+
+        <TextView
+            android:id="@+id/ComplNo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingLeft="10dp"
+            android:text="@string/app_default_label"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/label_black_color" />
+
+   <TextView
+       android:id="@+id/TextViewDate"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="10dp"
+       android:paddingLeft="10dp"
+       android:text="@string/app_complaint_label_7"
+       android:textAppearance="?android:attr/textAppearanceMedium"
+       android:textColor="@color/label_gray_color" />
+
+        <TextView
+            android:id="@+id/ComplDate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:text="@string/app_default_label"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/label_black_color" />
+        
+        
+        <TextView
+       android:id="@+id/TextAssignedDate"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="10dp"
+       android:paddingLeft="10dp"
+       android:text="@string/app_complaint_label_11"
+       android:textAppearance="?android:attr/textAppearanceMedium"
+       android:textColor="@color/label_gray_color" />
+
+        <TextView
+            android:id="@+id/AssignedDate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:text="@string/app_default_label"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/label_black_color" />
+        
+
+       <!--  <TextView
+                android:id="@+id/TextViewComplDesc"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="@string/app_complaint_label_8"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/label_gray_color" />
+      
+        <TextView
+            android:id="@+id/ComplDesc"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:text="@string/app_default_label"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/label_black_color" /> -->
+          
+          <TextView
+                android:id="@+id/TextViewUserId"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="@string/app_complaint_label_9"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/label_gray_color" />
+      
+        <TextView
+            android:id="@+id/UserId"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:text="@string/app_default_label"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/label_black_color" /> 
+            
+          <TextView
+              android:id="@+id/TextViewCompnam"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:paddingLeft="10dp"
+              android:text="@string/app_complaint_label_2"
+              android:textAppearance="?android:attr/textAppearanceMedium"
+              android:textColor="@color/label_gray_color" />
+
+        <TextView
+            android:id="@+id/ComplName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingLeft="10dp"
+            android:text="@string/app_default_label"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/label_black_color" />
+        
+        
+        
+         <TextView
+             android:id="@+id/TextViewAdd"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="10dp"
+             android:paddingLeft="10dp"
+             android:text="@string/app_complaint_label_4"
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textColor="@color/label_gray_color" />
+
+        <TextView
+            android:id="@+id/Address"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingLeft="10dp"
+            android:text="@string/app_default_label"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/label_black_color" />
+        
+          <TextView
+              android:id="@+id/TextViewPhone"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="10dp"
+              android:paddingLeft="10dp"
+              android:text="@string/app_complaint_label_5"
+              android:textAppearance="?android:attr/textAppearanceMedium"
+              android:textColor="@color/label_gray_color" />
+
+        <TextView
+            android:id="@+id/Phone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingLeft="10dp"
+            android:text="@string/app_default_label"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/label_black_color" />
+        
+           <TextView
+               android:id="@+id/TextViewComment"
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="10dp"
+               android:paddingLeft="10dp"
+               android:text="@string/app_complaint_label_6"
+               android:textAppearance="?android:attr/textAppearanceMedium"
+               android:textColor="@color/label_gray_color" />
+           
+            <TextView
+                android:id="@+id/Comment"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:hint="Tap To Enter Comment"
+                android:paddingLeft="10dp"
+                android:text="@string/app_default_label"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/label_black_color" />
+
+            <TextView
+               android:id="@+id/TextStatus"
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="10dp"
+               android:paddingLeft="10dp"
+               android:text="@string/app_complaint_label_10"
+               android:textAppearance="?android:attr/textAppearanceMedium"
+               android:textColor="@color/label_gray_color" />
+            <RelativeLayout 
+                android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+            <CheckBox
+                android:id="@+id/Inprogress"
+                android:layout_height="fill_parent"
+                android:layout_width="wrap_content"
+                android:paddingRight="65dp"
+                android:text="In Progress"></CheckBox>
+
+            <CheckBox
+                android:id="@+id/Closed"
+                android:layout_height="fill_parent"
+                android:layout_width="wrap_content"
+                android:layout_toRightOf="@+id/Inprogress"
+                android:text="Resolved"></CheckBox>
+            </RelativeLayout>
+            
+            <RelativeLayout 
+                android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+            <CheckBox
+                android:id="@+id/backtoareamanager"
+                android:layout_height="fill_parent"
+                android:layout_width="wrap_content"
+                android:paddingRight="18dp"
+                android:text="Not My Complaint"></CheckBox>
+            
+            <CheckBox
+                android:id="@+id/doorlock"
+                android:layout_height="fill_parent"
+                android:layout_width="wrap_content"
+                android:layout_toRightOf="@+id/backtoareamanager"
+                android:text="Door Locked"></CheckBox>
+            </RelativeLayout>
+            
+            <CheckBox
+                android:id="@+id/unabletoresolve"
+                android:layout_height="fill_parent"
+                android:layout_width="wrap_content"
+                android:text="Unable To Resolve"></CheckBox>
+            
+             <Spinner  
+                android:id="@+id/spComplaints"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"             
+                android:lines="2"
+                android:gravity="top"/>
+            
+            <Spinner  
+                android:id="@+id/spResolution"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"             
+                
+                android:lines="2"
+               
+                android:gravity="top"
+                />
+            
+            <EditText
+                android:id="@+id/compComment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Your Comment"
+                android:lines="2"
+                android:gravity="top"
+                android:inputType="textMultiLine" >
+
+                <requestFocus />
+            </EditText>
+
+        
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <issue id="DefaultLocale">
+        <ignore path="src\com\cnergee\service\ComplaintListActivity.java" />
+        <ignore path="src\com\cnergee\service\adapter\ComplaintListAdapter.java" />
+    </issue>
+</lint>

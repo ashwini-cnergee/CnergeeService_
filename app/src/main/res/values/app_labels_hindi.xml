@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     
+    <string name="app_splash_label_hindi">Powered by Cnergee</string>
+    
+    <string name="app_back_btn_hindi">Back</string>
+    <string name="app_logout_btn_hindi">Logout</string>
+    <string name="app_update_btn_hindi">Submit</string>
+     
+    <string name="app_default_label_hindi">-</string>
+    <string name="app_please_wait_label_hindi">Please Wait..</string>
+    <string name="app_please_enter_valid_label_hindi">Please enter valid data.</string>
+    <string name="app_please_setup_ws_label_hindi">Please setup the WebService Authentication.</string>
+    <string name="app_cust_not_found_label_hindi">Customer Not Found !!!</string>
+    <string name="app_internet_not_found_label_hindi">Internet connection not available!!</string>
+    <string name="app_confirm_label_hindi">Are you sure you want to process?</string>
+    <string name="app_payment_capture_label_hindi">Your payment details are captured</string>
+    
+      
+     <string name="login_title_hindi">Login</string>
+     <string name="login_user_hindi">yaUsar naoma :</string>
+     <string name="login_pass_hindi">Password:</string>
+     <string name="login_invalid_hindi">Invalid UserName / Password. Please Try Again.</string>
+     
+     <string name="login_btn_login_hindi">Login</string>
+     <string name="login_btn_setting_hindi"> saoiTMga</string> 
+     
+     
+     <string name="app_setting_title_hindi">Web Service Authentication</string>
+     <string name="app_label_1_hindi">Mobile No:</string>
+     <string name="app_label_2_hindi">Mobile Login Id:</string>
+     <string name="app_label_3_hindi">Mobile Password:</string>
+     <string name="app_label_4_hindi">Language:</string>
+     <string name="app_label_5_hindi">Access Code:</string>
+     <string name="app_btn_1_hindi">Save</string>
+     <string name="app_btn_2_hindi">Reset</string>
+     <string name="app_hint_1_hindi"></string>
+     
+     <string name="app_notification_label_1_hindi">Assign New Complaint!</string>
+     <string name="app_notification_label_2_hindi">Cnergee Administator</string>
+  
+        
+     <string name="app_home_title_hindi">Home</string>
+     <string name="app_home_label_1_hindi">Update Status</string>
+     <string name="app_home_label_2_hindi">Register New</string>
+     <string name="app_home_label_3_hindi">Complaint Logs</string>
+     <string name="app_home_label_4_hindi">Logout</string>
+     
+     <string name="app_complaint_det_title_hindi">Complaint Details</string>
+     <string name="app_complaint_label_1_hindi">Docket No</string>
+     <string name="app_complaint_label_2_hindi">Customer Name</string>
+     <string name="app_complaint_label_3_hindi">Complaint No</string>
+     <string name="app_complaint_label_4_hindi">Address</string>
+     <string name="app_complaint_label_5_hindi">Mobile No</string>
+     <string name="app_complaint_label_6_hindi">Comments</string>
+     <string name="app_complaint_label_7_hindi">Complaint Date and Time</string>
+     <string name="app_complaint_label_8_hindi">Complaint Desc.</string>
+      <string name="app_complaint_label_9_hindi">Customer Id.</string>
+      <string name="app_complaint_label_10_hindi">Status</string>
+      <string name="app_complaint_label_11_hindi">Assigned Date and Time</string>
+     
+     
+     <string name="app_complaint_list_title_hindi">List Of Complaints</string>
+     <string name="app_complaint_list_label_1_hindi">Complaints</string>
+     
+      <string name="app_complaint_details_title_hindi">Complaint Details</string>
+     
+</resources>

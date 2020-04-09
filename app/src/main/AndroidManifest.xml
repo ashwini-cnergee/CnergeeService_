@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.cnergee.broadbandservice"
+    android:versionCode="11"
+    android:versionName="3.3" > <!--3.2-->
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-feature android:name="android.hardware.location.network" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.INSTALL_PACKAGES"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.DELETE_PACKAGES"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera"/>
+
+
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="true"/>
+
+
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.cnergee.service.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cnergee.service.DashboardActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+        <activity
+            android:name="com.cnergee.service.HomeActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_home"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.cnergee.service.LoginActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.cnergee.service.AppSettingActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_app_setting"
+            android:screenOrientation="portrait" >
+        </activity>
+
+
+        <activity
+            android:name="com.cnergee.service.Ecature"
+            android:theme="@style/Theme.AppCompat.Light"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_app_setting"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <activity
+            android:name="com.cnergee.service.activity_ekyc"
+
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <service
+            android:name="com.cnergee.service.sys.CnergeeService"
+            android:configChanges="keyboardHidden|orientation"
+            android:description="@string/app_service_desc"
+            android:label="@string/app_name"
+            android:permission="android.permission.INTERNET"
+            android:screenOrientation="portrait" >
+        </service>
+
+        <activity
+            android:name="com.cnergee.service.NotificationDetailsActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_notification_details"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.cnergee.service.ComplaintListActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_complaint_list"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.cnergee.service.ComplaintDetailsActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_complaint_details"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <activity
+            android:name="com.cnergee.service.CAF_Activity"
+
+            android:label="@string/title_activity_complaint_details"
+            android:screenOrientation="portrait" >
+        </activity>
+
+
+        <activity
+            android:name="com.cnergee.service.AllinOne"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:label="@string/title_activity_complaint_details"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <activity
+            android:name="com.cnergee.service.ProspectActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_complaint_list"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="com.desmond.squarecamera.CameraActivity" />
+
+        <activity
+            android:name="com.cnergee.service.AllListActvity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_home"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name="com.cnergee.service.EnquiryDetailsActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_home"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name="com.cnergee.service.ShiftingDetailsActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_home"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name="com.cnergee.service.DeactivationDetailsActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_home"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+
+        <activity android:name="me.nereo.multi_image_selector.MultiImageSelectorActivity" />
+
+        <service android:name="com.cnergee.service.sys.GpsTrackerService" >
+        </service>
+        <service android:name="com.cnergee.service.sys.NotificationService" >
+        </service>
+
+        <receiver android:name="com.cnergee.service.broadcast.GpsStatusListener" >
+            <intent-filter>
+                <action android:name="android.location.PROVIDERS_CHANGED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.cnergee.service.broadcast.AlarmBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="android.location.PROVIDERS_CHANGED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.cnergee.service.broadcast.BootBroadcastReceiver1"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.cnergee.service.utils.FetchAddressIntentService"
+            android:exported="false" />
+
+
+        <activity
+            android:name="com.cnergee.service.MapsActivity"
+            android:label="Map">
+
+        </activity>
+
+        <activity
+            android:name="com.gun0912.tedpicker.ImagePickerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme_picker"/>
+
+
+        <activity
+            android:name="com.cnergee.service.ImagestoPdf"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEND_MULTIPLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="image/*" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDIR3SMYilrMVJu0pHSA4BzCx9m-GoSlPo" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.mak.shareFile"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"/>
+        </provider>
+
+
+    </application>
+
+</manifest>

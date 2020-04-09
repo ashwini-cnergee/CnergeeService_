@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     
+    <string name="app_splash_label">Powered by Cnergee</string>
+    
+    <string name="app_back_btn">Back</string>
+    <string name="app_logout_btn">Logout</string>
+    <string name="app_update_btn">Submit</string>
+     
+    <string name="app_default_label">-</string>
+    <string name="app_please_wait_label">Please Wait..</string>
+    <string name="app_please_enter_valid_label">Please enter valid data.</string>
+    <string name="app_please_setup_ws_label">Please setup the WebService Authentication.</string>
+    <string name="app_cust_not_found_label">Customer Not Found !!!</string>
+    <string name="app_internet_not_found_label">Internet connection not available!!</string>
+    <string name="app_confirm_label">Are you sure you want to process?</string>
+    <string name="app_payment_capture_label">Your payment details are captured</string>
+    
+      
+     <string name="login_title">Login</string>
+     <string name="login_user">Username:</string>
+     <string name="login_pass">Password:</string>
+     <string name="login_invalid">Invalid UserName / Password. Please Try Again.</string>
+     
+     <string name="login_btn_login">Login</string>
+     <string name="login_btn_setting">WS Setting</string> 
+     
+     
+     <string name="app_setting_title">Authentication</string>
+     <string name="app_label_1">Mobile No:</string>
+     <string name="app_label_2">Mobile Login Id:</string>
+     <string name="app_label_3">Mobile Password:</string>
+     <string name="app_label_4">Language:</string>
+     <string name="app_label_5">Access Code:</string>
+     <string name="app_btn_1">Save</string>
+     <string name="app_btn_2">Reset</string>
+     <string name="app_hint_1"></string>
+     
+     <string name="app_notification_label_1">Assign New Complaint!</string>
+     <string name="app_notification_label_2">Cnergee Administator</string>
+  
+        
+     <string name="app_home_title">Home</string>
+     <string name="app_home_label_1">Update Status</string>
+     <string name="app_home_label_2">Register New</string>
+     <string name="app_home_label_3">Complaint Logs</string>
+     <string name="app_home_label_4">Logout</string>
+     
+     <string name="app_complaint_det_title">Complaint Details</string>
+     <string name="app_complaint_label_1">Docket No</string>
+     <string name="app_complaint_label_2">Customer Name</string>
+     <string name="app_complaint_label_3">Complaint No</string>
+     <string name="app_complaint_label_4">Address</string>
+     <string name="app_complaint_label_5">Mobile No</string>
+     <string name="app_complaint_label_6">Comments</string>
+     <string name="app_complaint_label_7">Complaint Date and Time</string>
+     <string name="app_complaint_label_8">Complaint Desc.</string>
+      <string name="app_complaint_label_9">Customer Id.</string>
+      <string name="app_complaint_label_10">Status</string>
+      <string name="app_complaint_label_11">Assigned Date and Time</string>
+     
+     
+     <string name="app_complaint_list_title">List Of Complaints</string>
+     <string name="app_complaint_list_label_1">Complaints</string>
+     
+      <string name="app_complaint_details_title">Complaint Details</string>
+      
+      <string name="app_enquiry_no">Enquiry No:</string>
+     <string name="app_enquiry_cust_name">Customer Name:</string>
+     <string name="app_enquiry_address">Address:</string>
+     <string name="app_enquiry_mob">Mobile Number:</string>
+     <string name="app_enquiry_current_status">Current Status:</string>
+     <string name="app_enquiry_comment">Comment:</string>
+      <string name="app_enquiry_conn_date">Connection Date:</string>
+     <string name="app_enquiry_visit_date">Visit Date:</string>
+     <string name="app_enquiry_last_comment">Last Comment:</string>
+     <string name="app_enquiry_status">Status:</string>
+     
+     
+      <string name="app_shifting_no">Shifting No:</string>
+     
+     <string name="app_shifting_old_address">Old Address:</string>
+     <string name="app_shifting_new_address">New Address:</string>
+     <string name="app_deactivation_no">Deactivation No:</string>
+    
+     
+</resources>

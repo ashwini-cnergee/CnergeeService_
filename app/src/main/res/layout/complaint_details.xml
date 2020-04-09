@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TableLayout
+        android:id="@+id/TableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+       <!--  <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp" >
+            
+            <TextView
+                android:id="@+id/TextViewDocNo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="@string/app_complaint_label_1"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/label_gray_color" />
+
+        <TextView
+            android:id="@+id/DocketNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingLeft="10dp"
+            android:text="@string/app_default_label"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/label_black_color" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp" >
+            
+            <TextView
+                android:id="@+id/TextViewName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="@string/app_complaint_label_2"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/label_gray_color" />
+
+        <TextView
+            android:id="@+id/CustName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingLeft="10dp"
+            android:text="@string/app_default_label"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/label_black_color" />
+        </TableRow> -->
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp" >
+            
+            <TextView
+                android:id="@+id/TextViewCompl"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="@string/app_complaint_label_3"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/label_gray_color" />
+
+        <TextView
+            android:id="@+id/ComplNo"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="left"
+            android:paddingLeft="10dp"
+            android:text="@string/app_default_label"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/label_black_color" />
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/tableRow9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp" >
+            
+            <TextView
+                android:id="@+id/TextViewCompl"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="@string/app_complaint_label_8"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/label_gray_color" />
+
+        <TextView
+            android:id="@+id/ComplDesc"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="left"
+            android:paddingLeft="10dp"
+            android:text="@string/app_default_label"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/label_black_color" />
+        </TableRow>
+        
+         <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp" >
+            
+            <TextView
+                android:id="@+id/TextViewCompl"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="@string/app_complaint_label_7"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/label_gray_color" />
+
+        <TextView
+            android:id="@+id/ComplDate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingLeft="10dp"
+            android:text="@string/app_default_label"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/label_black_color" />
+        </TableRow>
+        
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp" >
+            
+            <TextView
+                android:id="@+id/TextViewAdd"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="@string/app_complaint_label_4"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/label_gray_color" />
+
+        <TextView
+            android:id="@+id/Add"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingLeft="10dp"
+            android:text="@string/app_default_label"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/label_black_color" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp" >
+            
+            <TextView
+                android:id="@+id/TextViewPhone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="@string/app_complaint_label_5"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/label_gray_color" />
+
+        <TextView
+            android:id="@+id/Phone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingLeft="10dp"
+            android:text="@string/app_default_label"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/label_black_color" />
+
+        </TableRow>
+         <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp" >
+            
+            <TextView
+                android:id="@+id/TextViewPhone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="@string/app_complaint_label_6"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/label_gray_color" />
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp" 
+            >
+           
+        <TextView
+            android:id="@+id/Comment"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingLeft="10dp"
+            android:text="@string/app_default_label"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/label_black_color" />
+
+        </TableRow>
+        
+        
+         <TableRow
+            android:id="@+id/tableRow8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"  >
+       
+        <TextView
+            android:id="@+id/empty09"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            />
+
+             <Button
+                 android:id="@+id/custDetOkBtn"
+                 style="@style/AppBtn"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="right"
+                 android:background="@drawable/relative_selector"
+                 android:text="Ok" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</ScrollView>

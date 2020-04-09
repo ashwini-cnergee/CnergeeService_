@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget0"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_cnergee"
+    android:gravity="top"
+    android:orientation="vertical" >
+    
+    <include
+      android:id="@+id/include_header"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentTop="true"
+      android:layout_alignParentLeft="true"
+      layout="@layout/header_caf"/>
+     
+    
+      <Button 
+         android:id="@+id/btn_caf_form"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="CAF_FORM"
+         android:layout_below="@+id/include_header"
+         android:layout_centerHorizontal="true"
+         android:layout_gravity="center_vertical"
+         android:layout_marginTop="100dp"
+         android:layout_marginLeft="150dp"
+         style="@style/AppBtn"
+         android:background="@drawable/relative_selector"/>
+      
+      
+      <Button 
+         android:id="@+id/btn_logout"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Logout"
+         android:layout_below="@+id/btn_caf_form"
+         android:layout_centerHorizontal="true"
+         android:layout_gravity="center_vertical"
+         android:layout_marginTop="100dp"
+         android:layout_marginLeft="150dp"
+         style="@style/AppBtn"
+         android:background="@drawable/relative_selector"/>
+
+      <include
+        android:id="@+id/login_footer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        layout="@layout/footer" />
+       
+      </RelativeLayout>

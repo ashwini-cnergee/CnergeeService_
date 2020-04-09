@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+     <string name="BUILD_VERSION_PATH">182.48.200.10</string>
+     <string name="FTP_USERNAME">ccrm</string>
+     <string name="FTP_PASSWORD">atmos</string>
+     
+    <string name="BUILD_VERSION_FILE">CnergeeServiceVersion.txt</string>
+    <string name="BUILD_APK_FILE_NAME">CnergeeService</string>
+    <string name="BUILD_PACKAGE_NAME">package:com.cnergee.service</string>
+
+    
+    <string name="WSDL_TARGET_NAMESPACE">http://tempuri.org/</string>
+    
+    <!-- Currently poiniting to 114.79.129.11 -->
+    	<string name="GLOBAL_SOAP_URL">http://myappapi.cmaya.in:8008/CCRMToMobileIntegration.asmx?wsdl</string> 
+    
+    
+   <!-- <string name="GLOBAL_SOAP_URL">http://114.79.129.11:8005/CCRMToMobileIntegration.asmx?wsdl</string> -->
+    <string name="dynamic_url">%1$s</string>
+    
+      
+     
+    <string name="METHOD_VALIDATE_USER">ValidateUserForService</string>
+    <string name="METHOD_GET_COMPLAINT">GetComplaint</string>
+    <string name="METHOD_GET_COMPLAINT_DETAILS">GetComplaintDetails</string>
+    <string name="METHOD_UPDATE_STATUS">UpdateStatus</string>
+    
+ 	<!-- <string name="METHOD_UPDATE_COMPLAINT_STATUS">UpdateComplaintStatus</string> -->
+ 	<string name="METHOD_UPDATE_COMPLAINT_STATUS">UpdateComplaintStatusWithResolution</string>
+ 	
+ 	<string name="METHOD_GET_STATUS_LIST">GetStatusList</string>
+ 	<string name="METHOD_GET_COMPLAINT_CATEGORY">GetComplaintCategory</string>
+ 	<string name="METHOD_GET_COMPLAINT_TYPE">GetComplaintType</string>
+ 	<string name="METHOD_APP_SETTING">ValidateMobileForService</string>
+ 	<string name="METHOD_RESOLUTION_TYPE">GetResolutinTypeList</string>
+ 	<string name="METHOD_COMPLAINTS_TYPE_LIST">GetComplaintTypeList</string>
+ 	  <string name="METHOD_SEND_LOCATION">GetGPSLocation</string>
+ 	  
+ 	  <string name="METHOD_LOGOUT_SETTING">GetGeneralSetting</string>
+ 	   <string name="METHOD_GET_STATUS">SendStatus</string>
+ 	  <string name="METHOD_GET_DYNAMIC_URL">GetClientFileServerDetails</string>
+ 	  <string name="METHOD_GET_ALL_NOTIFICATION">GetServiceNotification</string>
+ 	  <string name="METHOD_UPDATE_ALL_NOTIFICATION">UpdateNotificationStatus</string>
+ 	  <string name="METHOD_GET_UNREAD_NOTIFICATION">ServiceDashBoardCount</string>
+ 	  <string name="METHOD_GET_ALL_LIST">GetServiceTicketList</string>
+ 	  <string name="METHOD_GET_ALL_TICKET_DETAILS">GetServiceTicketDetails</string>
+ 	  <string name="METHOD_UPDATE_ALL_TICKET_DETAILS">UpdateTicketStatus</string>
+ 	  <string name="METHOD_GET_ALL_STATUS_LIST">GetStatusList</string>
+ 	  
+ 	  
+</resources>

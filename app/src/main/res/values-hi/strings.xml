@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Cnergee Service Application</string>
+    <string name="app_service_desc">Cnergee Service for getting the complaints</string>
+    <string name="app_login_mode">Please Wait...</string>
+    <string name="menu_settings">Settings</string>
+    <string name="default_label">-</string>
+     <string name="app_run_mode">dev</string>      
+    <!-- <string name="app_run_mode">prod</string>  -->
+
+    <string name="shared_preferences_name">CNERGEE_SERVICE</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_app_setting">AppSettingActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_notification_details">NotificationDetailsActivity</string>
+    <string name="title_activity_complaint_list">ComplaintListActivity</string>
+    <string name="title_activity_complaint_details">ComplaintDetailsActivity</string>
+
+</resources>

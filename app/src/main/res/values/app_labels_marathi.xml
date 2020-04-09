@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     
+    <string name="app_splash_label_marathi">Powered by Cnergee</string>
+    
+    <string name="app_back_btn_marathi">Back</string>
+    <string name="app_logout_btn_marathi">Logout</string>
+    <string name="app_update_btn_marathi">Submit</string>
+     
+    <string name="app_default_label_marathi">-</string>
+    <string name="app_please_wait_label_marathi">Please Wait..</string>
+    <string name="app_please_enter_valid_label_marathi">Please enter valid data.</string>
+    <string name="app_please_setup_ws_label_marathi">Please setup the WebService Authentication.</string>
+    <string name="app_cust_not_found_label_marathi">Customer Not Found !!!</string>
+    <string name="app_internet_not_found_label_marathi">Internet connection not available!!</string>
+    <string name="app_confirm_label_marathi">Are you sure you want to process?</string>
+    <string name="app_payment_capture_label_marathi">Your payment details are captured</string>
+    
+      
+     <string name="login_title_marathi">Login</string>
+     <string name="login_user_marathi">yaUsar naoma :</string>
+     <string name="login_pass_marathi">Password:</string>
+     <string name="login_invalid_marathi">Invalid UserName / Password. Please Try Again.</string>
+     
+     <string name="login_btn_login_marathi">Login</string>
+     <string name="login_btn_setting_marathi"> saoiTMga</string> 
+     
+     
+     <string name="app_setting_title_marathi">Web Service Authentication</string>
+     <string name="app_label_1_marathi">Mobile No:</string>
+     <string name="app_label_2_marathi">Mobile Login Id:</string>
+     <string name="app_label_3_marathi">Mobile Password:</string>
+     <string name="app_label_4_marathi">Language:</string>
+     <string name="app_label_5_marathi">Access Code:</string>
+     <string name="app_btn_1_marathi">Save</string>
+     <string name="app_btn_2_marathi">Reset</string>
+     <string name="app_hint_1_marathi"></string>
+     
+     <string name="app_notification_label_1_marathi">Assign New Complaint!</string>
+     <string name="app_notification_label_2_marathi">Cnergee Administator</string>
+  
+        
+     <string name="app_home_title_marathi">Home</string>
+     <string name="app_home_label_1_marathi">Update Status</string>
+     <string name="app_home_label_2_marathi">Register New</string>
+     <string name="app_home_label_3_marathi">Complaint Logs</string>
+     <string name="app_home_label_4_marathi">Logout</string>
+     
+     <string name="app_complaint_det_title_marathi">Complaint Details</string>
+     <string name="app_complaint_label_1_marathi">Docket No</string>
+     <string name="app_complaint_label_2_marathi">Customer Name</string>
+     <string name="app_complaint_label_3_marathi">Complaint No</string>
+     <string name="app_complaint_label_4_marathi">Address</string>
+     <string name="app_complaint_label_5_marathi">Mobile No</string>
+     <string name="app_complaint_label_6_marathi">Comments</string>
+     <string name="app_complaint_label_7_marathi">Complaint Date and Time</string>
+     <string name="app_complaint_label_8_marathi">Complaint Desc.</string>
+      <string name="app_complaint_label_9_marathi">Customer Id.</string>
+      <string name="app_complaint_label_10_marathi">Status</string>
+      <string name="app_complaint_label_11_marathi">Assigned Date and Time</string>
+     
+     
+     <string name="app_complaint_list_title_marathi">List Of Complaints</string>
+     <string name="app_complaint_list_label_1_marathi">Complaints</string>
+     
+      <string name="app_complaint_details_title_marathi">Complaint Details</string>
+     
+</resources>

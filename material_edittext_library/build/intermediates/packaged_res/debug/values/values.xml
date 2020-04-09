@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bottom_ellipsis_height">4dp</dimen>
+    <dimen name="bottom_text_size">12sp</dimen>
+    <dimen name="default_padding_bottom">8dp</dimen>
+    <dimen name="default_padding_top">8dp</dimen>
+    <dimen name="floating_label_text_size">12sp</dimen>
+    <dimen name="inner_components_spacing">8dp</dimen>
+    <dimen name="inner_padding_left">0dp</dimen>
+    <dimen name="inner_padding_right">0dp</dimen>
+    <declare-styleable name="MaterialEditText">
+    <!-- The base color of the line and the texts. Default is black. -->
+    <attr format="color" name="baseColor"/>
+    <!-- The highlight color of the line, and the floating label if the highlightFloatingLabel is true. -->
+    <attr format="color" name="primaryColor"/>
+    <!-- How the floating label should be shown. Default is none -->
+    <attr name="floatingLabel">
+      <enum name="none" value="0"/>
+      <enum name="normal" value="1"/>
+      <enum name="highlight" value="2"/>
+    </attr>
+    <!-- The color for when something is wrong.(e.g. exceeding max characters) -->
+    <attr format="color" name="errorColor"/>
+    <!-- Min characters count limit. 0 means no limit. -->
+    <attr format="integer" name="minCharacters"/>
+    <!-- max Characters count limit. 0 means no limit. -->
+    <attr format="integer" name="maxCharacters"/>
+    <!-- Whether to show the bottom ellipsis in singleLine mode -->
+    <attr format="boolean" name="singleLineEllipsis"/>
+    <!-- Reserved bottom text lines count, no matter if there is some helper/error text. -->
+    <attr format="integer" name="minBottomTextLines"/>
+    <!-- Helper text at the bottom -->
+    <attr format="string" name="helperText"/>
+    <!-- Helper text color -->
+    <attr format="color" name="helperTextColor"/>
+    <!-- Font of the paint used to draw accent texts -->
+    <attr format="string" name="accentTypeface"/>
+    <!-- Custom float label text -->
+    <attr format="string" name="floatingLabelText"/>
+    <!-- spacing between the main text and the floating label -->
+    <attr format="dimension" name="floatingLabelSpacing"/>
+    <!-- Hide underline -->
+    <attr format="boolean" name="hideUnderline"/>
+    <!-- Auto validate -->
+    <attr format="boolean" name="autoValidate"/>
+	  <!-- Left icon -->
+	  <attr format="reference" name="iconLeft"/>
+	  <!-- Right icon -->
+	  <attr format="reference" name="iconRight"/>
+	  <!-- Padding between icon(s) and the main area. 8dp by default. -->
+	  <attr format="dimension" name="iconPadding"/>
+	  <!-- The floating label's text size. 12sp by default. -->
+	  <attr format="dimension" name="floatingLabelTextSize"/>
+	  <!-- The bottom texts' size. 12sp by default. -->
+	  <attr format="dimension" name="bottomTextSize"/>
+  </declare-styleable>
+</resources>

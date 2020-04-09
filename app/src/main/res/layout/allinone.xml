@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="GPS Tracking"
+            android:background="@android:color/transparent"
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/gps_location_activity"/>
+
+        <com.cnergee.service.customview.MyTextView
+            android:layout_width="match_parent"
+            android:id="@+id/gps_location"
+            android:layout_height="@dimen/dp_45"
+            android:layout_marginTop="@dimen/dp_5"
+            android:hint="Click on GPS Tracking"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+
+
+        <com.cnergee.service.customview.MyButtonView
+            android:id="@+id/e-signature"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="E-Signature"
+            android:background="@android:color/transparent"
+            android:textColor="@color/colorPrimaryDark" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="E-KYC"
+            android:background="@android:color/transparent"
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/Ekyc_activity"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Select Documents"
+            android:background="@android:color/transparent"
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/imagetopdf"/>
+
+    </LinearLayout>
+
+</LinearLayout>
